@@ -1,0 +1,40 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="Qlm1qRi_aM5AuqoAn-0g">
+    <mxGraphModel dx="634" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-1" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Product" vertex="1">
+          <mxGeometry height="199" width="160" x="90" y="50" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-2" parent="gnzb1RbknpKeGbd-qLCZ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;- id : Long&lt;/div&gt;&lt;div&gt;- name : String&lt;/div&gt;&lt;div&gt;- price : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="64" width="160" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-3" parent="gnzb1RbknpKeGbd-qLCZ-1" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="160" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-4" parent="gnzb1RbknpKeGbd-qLCZ-1" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;span&gt;+ Product()&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent;&quot;&gt;+ Product(Long, String, double)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;+ getId() : Long&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ getName() : String&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span&gt;+ getPrice() : double&lt;/span&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="101" width="160" y="98" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-5" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="Address" vertex="1">
+          <mxGeometry height="170" width="170" x="85" y="300" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-6" parent="gnzb1RbknpKeGbd-qLCZ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="-String street&lt;div&gt;-String city&lt;/div&gt;&lt;div&gt;-String postcode&lt;/div&gt;" vertex="1">
+          <mxGeometry height="54" width="170" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-7" parent="gnzb1RbknpKeGbd-qLCZ-5" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="170" y="80" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-8" parent="gnzb1RbknpKeGbd-qLCZ-5" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="+Address()&lt;div&gt;+Address(String,String,String)&lt;/div&gt;&lt;div&gt;+String getStreet()&lt;/div&gt;&lt;div&gt;+String getCity()&lt;/div&gt;&lt;div&gt;+String getPostcode()&lt;/div&gt;" vertex="1">
+          <mxGeometry height="82" width="170" y="88" as="geometry" />
+        </mxCell>
+        <mxCell id="gnzb1RbknpKeGbd-qLCZ-9" edge="1" parent="1" source="gnzb1RbknpKeGbd-qLCZ-1" style="endArrow=classic;html=1;rounded=0;endFill=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="gnzb1RbknpKeGbd-qLCZ-5" value="">
+          <mxGeometry height="50" relative="1" width="50" as="geometry">
+            <mxPoint x="300" y="340" as="sourcePoint" />
+            <mxPoint x="350" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

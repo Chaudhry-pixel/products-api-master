@@ -1,0 +1,64 @@
+<mxfile host="Electron" agent="ChatGPT">
+  <diagram id="uml-hierarchy" name="Product Inheritance UML">
+    <mxGraphModel dx="1321" dy="803" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="product" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;shadow=0;align=left;verticalAlign=top;spacing=0;" value="" vertex="1">
+          <mxGeometry height="265" width="360" x="405" y="105" as="geometry" />
+        </mxCell>
+        <mxCell id="producthead" parent="product" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fillColor=#bfdbfe;strokeColor=#334155;strokeWidth=1;fontSize=19;fontColor=#152238;" value="&lt;b&gt;Product&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="360" as="geometry" />
+        </mxCell>
+        <mxCell id="productfields" parent="product" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;- id : Long&lt;br&gt;- name : String&lt;br&gt;- price : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="87" width="360" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="productsep" parent="product" style="line;strokeColor=#94a3b8;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="360" y="159" as="geometry" />
+        </mxCell>
+        <mxCell id="productmethods" parent="product" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;+ getName() : String&lt;br&gt;+ getPrice() : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="360" y="172" as="geometry" />
+        </mxCell>
+        <mxCell id="digital" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;shadow=0;align=left;verticalAlign=top;spacing=0;" value="" vertex="1">
+          <mxGeometry height="225" width="400" x="100" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="digitalhead" parent="digital" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fillColor=#bbf7d0;strokeColor=#334155;strokeWidth=1;fontSize=19;fontColor=#152238;" value="&lt;b&gt;DigitalProduct&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="digitalfields" parent="digital" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;- downloadUrl : String&lt;br&gt;- fileSizeMB : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="digitalsep" parent="digital" style="line;strokeColor=#94a3b8;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="digitalmethods" parent="digital" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;+ getDownloadUrl() : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="400" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="physical" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#334155;strokeWidth=2;shadow=0;align=left;verticalAlign=top;spacing=0;" value="" vertex="1">
+          <mxGeometry height="225" width="400" x="670" y="550" as="geometry" />
+        </mxCell>
+        <mxCell id="physicalhead" parent="physical" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fillColor=#fde68a;strokeColor=#334155;strokeWidth=1;fontSize=19;fontColor=#152238;" value="&lt;b&gt;PhysicalProduct&lt;/b&gt;" vertex="1">
+          <mxGeometry height="50" width="400" as="geometry" />
+        </mxCell>
+        <mxCell id="physicalfields" parent="physical" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;- weightKg : double&lt;br&gt;- dimensions : String&lt;/div&gt;" vertex="1">
+          <mxGeometry height="58" width="400" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="physicalsep" parent="physical" style="line;strokeColor=#94a3b8;strokeWidth=1;" value="" vertex="1">
+          <mxGeometry height="1" width="400" y="130" as="geometry" />
+        </mxCell>
+        <mxCell id="physicalmethods" parent="physical" style="text;html=1;align=left;verticalAlign=top;spacingLeft=18;whiteSpace=wrap;fontSize=17;fontColor=#111827;" value="&lt;div style=&quot;line-height:1.65&quot;&gt;+ getWeightKg() : double&lt;/div&gt;" vertex="1">
+          <mxGeometry height="29" width="400" y="143" as="geometry" />
+        </mxCell>
+        <mxCell id="inherit_digital" edge="1" parent="1" source="digital" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1e293b;strokeWidth=2.5;endArrow=block;endFill=0;endSize=19;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.32;entryY=1;entryDx=0;entryDy=0;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="inherit_physical" edge="1" parent="1" source="physical" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;strokeColor=#1e293b;strokeWidth=2.5;endArrow=block;endFill=0;endSize=19;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.68;entryY=1;entryDx=0;entryDy=0;" target="product">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="title" parent="1" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;fontSize=25;fontColor=#0f172a;" value="&lt;b&gt;Tutorial 4 — Product Inheritance Hierarchy&lt;/b&gt;&lt;br&gt;&lt;font style=&quot;font-size:15px&quot;&gt;5COSC019W · UML Class Diagram&lt;/font&gt;" vertex="1">
+          <mxGeometry height="75" width="610" x="280" y="15" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
